@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+
+android:layout_height="fill_parent"
+android:gravity="center_horizontal"
+
+android:orientation="vertical"
+android:layout_margin="10dp" >
+
+<TextView
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content"
+android:text="@string/hello" />
+
+<EditText
+android:id="@+id/server"
+
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+
+android:hint="@string/server_info"
+android:inputType="text" />
+
+<EditText
+android:id="@+id/username"
+
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+
+android:hint="@string/username_info"
+android:inputType="text" />
+
+<EditText
+android:id="@+id/password"
+
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+
+android:hint="@string/password_info"
+android:inputType="text" />
+
+<Button
+android:id="@+id/myButton"
+
+android:onClick="ButtonClicked"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/click"
+
+android:background="#b5b6b8"
+
+android:padding="5dp" />
+
+</LinearLayout>
